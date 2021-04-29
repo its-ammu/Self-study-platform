@@ -1,0 +1,250 @@
+body {
+  background-color: #e4e4e4;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  overflow: hidden;
+}
+
+#login_div {
+  height: 100vh;
+  display: block;
+}
+
+#user_div {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  -webkit-box-shadow: 10px 10px 178px 0px rgba(0, 0, 0, 0.24);
+          box-shadow: 10px 10px 178px 0px rgba(0, 0, 0, 0.24);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+li {
+  float: left;
+}
+
+li img {
+  width: 1.7rem;
+}
+
+li button {
+  border: none !important;
+  background-color: white;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.blue {
+  color: #4652ff;
+  font-weight: bold;
+}
+
+.red {
+  color: #ff4b4b;
+  font-weight: bold;
+}
+
+li a:hover, button:hover {
+  background-color: #c9c9c9;
+}
+
+.isactive {
+  border-bottom: 2px solid #4652ff;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+iframe {
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.code {
+  margin: 0;
+}
+
+.main {
+  height: 90vh;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.heroimg {
+  margin-top: 0;
+  width: 35vw;
+}
+
+.subtitle {
+  margin-top: 2rem;
+}
+
+.coding {
+  width: 20rem;
+}
+
+.container {
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+  margin: auto;
+}
+
+.CourseContainer {
+  font-size: 1.5rem;
+  padding: 1.3rem;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 1rem;
+  -webkit-box-shadow: 10px 10px 178px 0px rgba(0, 0, 0, 0.09);
+          box-shadow: 10px 10px 178px 0px rgba(0, 0, 0, 0.09);
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+  -webkit-transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
+}
+
+.CourseContainer:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 10px 10px 178px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 10px 10px 178px 0px rgba(0, 0, 0, 0.15);
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.pages .page {
+  display: none;
+}
+
+.pages .is-active {
+  display: block;
+}
+
+.codenav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.codenav .tab a {
+  color: white !important;
+  background-color: #686767;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.active a {
+  background-color: #3b3b3b !important;
+}
+
+.login {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 25rem;
+  padding: 2rem;
+  margin-top: 10rem;
+  font-size: 1rem;
+  -webkit-box-shadow: 10px 10px 178px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 178px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+}
+
+.head {
+  font-size: 1.5rem;
+}
+
+b {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.line {
+  width: 10rem;
+  height: .1rem;
+  background-color: #3b3b3b;
+  margin-bottom: .7rem;
+  margin-top: .3rem;
+}
+
+h4 {
+  margin-bottom: .7rem;
+}
+
+input {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.main-div input:focus {
+  border: 1px solid #777;
+}
+
+.main-div button, .loggedin-div button {
+  background: #5d8ffc;
+  color: #fff;
+  border: 1px solid #5d8ffc;
+  border-radius: 5px;
+  padding: 15px;
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.main-div button:hover, .loggedin-div button:hover {
+  background: #fff;
+  color: #5d8ffc;
+  border: 1px solid #5d8ffc;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,224 @@
+body{
+    background-color: #e4e4e4;
+    margin: 0;
+    padding: 0;
+
+}
+.home{
+    overflow: hidden;
+}
+#login_div{
+    height: 100vh;
+    display: block;
+}
+#user_div{
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 10px 10px 178px 0px rgba(0,0,0,0.24);
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    z-index: 3;
+  }
+  
+  li {
+    float: left;
+    img{
+        width: 1.7rem;
+    }
+    button{
+        border: none !important;
+        background-color: white;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .blue{
+    color:  rgb(70, 82, 255);
+    font-weight: bold;
+  }
+  .red{
+      color:  rgb(255, 75, 75);
+      font-weight: bold;
+  }
+  li a:hover, button:hover{
+    background-color: rgb(201, 201, 201);
+   
+  }
+  
+  
+  .isactive {
+    border-bottom: 2px solid  rgb(70, 82, 255);
+  }
+
+h1{
+    font-weight: bold;
+}
+
+
+iframe{
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.code{
+    margin: 0;
+}
+
+.main{
+    height: 90vh;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.heroimg{
+    margin-top: 0;
+    width: 35vw;
+}
+.subtitle{
+   margin-top: 2rem;
+}
+.coding{
+    width: 20rem;
+
+}
+
+
+.container{
+    width: fit-content !important;
+    margin: auto;
+}
+.CourseContainer{
+    font-size: 1.5rem;
+    padding: 1.3rem;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 178px 0px rgba(0,0,0,0.09);
+    width: fit-content !important;
+    transition: ease-in-out 0.4s;
+    
+}
+
+.CourseContainer:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 178px 0px rgba(0,0,0,.15);
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    z-index: -1;
+}
+a{
+    text-decoration: none !important;
+}
+
+.pages .page {
+    display: none;
+}
+
+.pages .is-active{
+    display: block;
+}
+.codenav{
+    display: flex;
+    width: 15rem;
+    justify-content: space-around;
+}
+.codenav .tab a{
+    color: white !important;
+    background-color: rgb(104, 103, 103);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    
+}
+.active a{
+    background-color: rgb(59, 59, 59) !important;
+}
+.login{
+    width: fit-content;
+    height: 25rem;
+    padding: 2rem;
+    margin-top: 10rem;
+    font-size: 1rem;
+    box-shadow: 10px 10px 178px 0px rgba(0,0,0,.2);
+    border-radius: 1rem;
+}
+
+.head{
+    font-size: 1.5rem;
+}
+b{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+.line
+{
+    width: 10rem;
+    height: .1rem;
+    background-color: rgb(59, 59, 59);
+    margin-bottom: .7rem;
+    margin-top: .3rem;
+   
+}
+
+h4{
+    margin-bottom: .7rem;
+}
+
+input {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+  }
+  
+  .main-div input:focus {
+    border: 1px solid #777;
+  }
+
+  .main-div button, .loggedin-div button {
+    background: #5d8ffc;
+    color: #fff;
+    border: 1px solid #5d8ffc;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+  }
+  
+  .main-div button:hover, .loggedin-div button:hover {
+    background: #fff;
+    color: #5d8ffc;
+    border: 1px solid #5d8ffc;
+    cursor: pointer;
+  }
