@@ -3,6 +3,7 @@ const fs = require('fs');
 
 const app = express();
 
+
 app.get('/video1', (req, res) => {
     const range = req.headers.range;
     const videoPath = './GraphQL.mp4';
